@@ -1,6 +1,6 @@
 
 import React from 'react'
-import {Location} from '@reach/router'
+import { Location } from '@reach/router'
 
 export class Logout extends React.Component {
   constructor (props) {
