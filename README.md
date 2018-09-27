@@ -1,7 +1,7 @@
 
-# Greenfield
+# Reach Auth
 
-Opinionated application organization and libraries for bootstrapping new React-based applications.
+Playing around with authentication leveragin Reach Router and React only.
 
 Build pipeline provided by [Create React App](https://github.com/facebookincubator/create-react-app).
 
