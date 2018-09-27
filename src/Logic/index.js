@@ -1,2 +1,0 @@
-
-export {Logout} from './Logout'

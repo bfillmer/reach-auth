@@ -1,16 +1,7 @@
 
 import React from 'react'
 
-import { Heading, P, Section } from 'Atoms'
-
-function Login ({handleClick}) {
-  return (
-    <Section>
-      <Heading>Login</Heading>
-      <P><button onClick={handleClick}>Click to Login</button></P>
-    </Section>
-  )
-}
+import { Login } from 'Screens'
 
 export class Auth extends React.Component {
   constructor (props) {

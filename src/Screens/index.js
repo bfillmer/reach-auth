@@ -1,4 +1,4 @@
 
-export {Account} from './Account'
-export {Auth} from './Auth'
-export {Home} from './Home'
+export { Account } from './Account'
+export { Home } from './Home'
+export { Login } from './Login'

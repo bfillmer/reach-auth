@@ -1,14 +1,16 @@
 
 import React from 'react'
 
-import { Heading, P, Section } from 'Atoms'
-import {Logout} from 'Logic'
+import { Heading, Logout, P, Section } from 'Atoms'
+import { Auth } from 'Auth'
 
 export function Account () {
   return (
-    <Section>
-      <Heading>Account</Heading>
-      <P><Logout /></P>
-    </Section>
+    <Auth>
+      <Section>
+        <Heading>Account</Heading>
+        <P><Logout /></P>
+      </Section>
+    </Auth>
   )
 }
